@@ -3,9 +3,9 @@ import React from 'react'
 const Navbar = () => {
     return (
         <>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary">
+            <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
             <div className="container-fluid">
-            <a className="navbar-brand" href="#">SMART-Commerce</a>
+            <img id='navbar_image' src="https://res.cloudinary.com/dc4fx7sbe/image/upload/v1745844628/Female_User_Icon_meurjt.png" alt="" />
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
             </button>

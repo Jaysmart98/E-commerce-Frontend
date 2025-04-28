@@ -1,13 +1,21 @@
 #home{
    background-color:#FAF3E0;
    color:  #333333;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0px 0px 0px;
+}
+
+#navbar_image{
+    width: 3%;
+    height: 3%;
 }
 
 #home_text1{
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: sans-serif;
     padding: 5% 15% 1% 15%;
-    font-size: 4.5em;
+    font-size: 4em;
 }
 
 #home_text2{
@@ -20,9 +28,9 @@
 
 #home_text3{
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: sans-serif;
     padding: 0% 5% 5% 5%;
-    font-size: 1.1em;
+    font-size: 0.8em;
 }
 
 .carousel{
@@ -34,7 +42,6 @@
 }
 
 .carouselIMG{
-    justify-content: center;
     width: 100%;
     height: 100%;
 }
@@ -50,3 +57,49 @@
   a {
     color: #1976D2;
   }
+
+.card-group{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+
+.card-body{
+    height: 100%;
+}
+
+.card-group{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+#crossSpan{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px 0px 2px 0px;
+}
+
+#crossbtn{
+    background-color: #FF7043;
+    color: #FFFFFF;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#crossbtn:hover{
+    background-color: #FF5722;
+}
+
+
+#crosstext2{
+    text-decoration: line-through;
+    padding: 5px 0px 0px 0px;
+}

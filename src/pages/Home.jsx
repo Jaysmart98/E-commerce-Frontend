@@ -3,14 +3,14 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import './Home.css'
 
+
 const Home = () => {
 
   return (
     <>
       <Navbar/>
       <div id="home">
-          <h1 id="home_text1">Welcome to SMART-Commerce</h1>
-
+          <h1 id="home_text1">Hello, Olive👋</h1>
 
   <div id="carouselExampleCaptions" className="carousel slide">
   <div className="carousel-indicators">
@@ -24,7 +24,7 @@ const Home = () => {
     <div className="carousel-item active">
       <img className="carouselIMG" src="https://res.cloudinary.com/dc4fx7sbe/image/upload/v1745790350/food_korgga.png" alt="..." />
       <div className="carousel-caption d-none d-md-block">
-        <h5>Explore all foods Available</h5>
+        <h5>Explore all foods available</h5>
         <p>Use the search button above to to check all sort of foods available.</p>
       </div>
     </div>
@@ -63,15 +63,79 @@ const Home = () => {
     <span className="visually-hidden">Next</span>
   </button>
 </div>
-<br/> <br/> <br/>
+<br/> 
 
     <h2 id="home_text2">WE PROVIDE THE BEST OF ALL ITEMS!</h2>
-    <h3 id="home_text3">SMART Commerce is where people shop the latest of all sort of items. 
-         With us, shopping is ease and faster. Fashion, Gadgets, Books, Furniture, Foods and etc. 
+    <h3 id="home_text3">Shop the latest of all sort of items with us with ease. Fashion, Gadgets, Books, Furniture, Foods and etc. 
       </h3>
       </div>
 
+
+  <div className="card-group">
+
+       <div className="card">
+    <img src="https://res.cloudinary.com/dc4fx7sbe/image/upload/v1745790801/Gadgets_mfwk9o.png" className="card-img-top" alt="..."/>
+    <div className="card-body">
+      <h5 className="card-title">GADGETS</h5>
+      <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+     
+      <div id="crossSpan">
+       <div id="">
+       <span className="card-text text-body-secondary">$1,500     </span> 
+       <span id="crosstext2" className="card-text text-body-secondary">   $2,000</span>
+       </div>
+
+       <div id="crossbtn-container">
+       <button id="crossbtn">Add to Cart</button>
+       </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div className="card">
+    <img src="https://res.cloudinary.com/dc4fx7sbe/image/upload/v1745790350/food_korgga.png" className="card-img-top" alt="..."/>
+    <div className="card-body">
+      <h5 className="card-title">MEALS</h5>
+      <p className="card-text">This card has supporting text below as a natural lead-in to additional content Lorem, ipsum dolor sit amet consectetur adipisicing el.</p>
+
+      <div id="crossSpan">
+       <div id="">
+       <span className="card-text text-body-secondary">$50     </span> 
+       <span id="crosstext2" className="card-text text-body-secondary">   $120</span>
+       </div>
+
+       <div id="crossbtn-container">
+       <button id="crossbtn">Add to Cart</button>
+       </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div className="card">
+    <img src="https://res.cloudinary.com/dc4fx7sbe/image/upload/v1745790841/furniture_knfeln.png" className="card-img-top" alt="..."/>
+    <div className="card-body">
+      <h5 className="card-title">FURNITURE</h5>
+      <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+     
+      <div id="crossSpan">
+       <div id="">
+       <span className="card-text text-body-secondary">$900     </span> 
+       <span id="crosstext2" className="card-text text-body-secondary">   $1,200</span>
+       </div>
+
+       <div id="crossbtn-container">
+       <button id="crossbtn">Add to Cart</button>
+       </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
       <br/>  <br/>  <br/> <br />
+
       <hr/>
       <Footer/>
       <hr/>
