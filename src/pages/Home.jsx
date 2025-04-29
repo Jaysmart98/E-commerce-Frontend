@@ -41,7 +41,7 @@ const Home = () => {
       <img src="https://res.cloudinary.com/dc4fx7sbe/image/upload/v1745790841/furniture_knfeln.png" class="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
         <h5>Furniture</h5>
-        <p>Use the search button above to to check all sort of furnitures available.</p>
+        <p>Use the search button above to to check all sort of furniture available.</p>
       </div>
     </div>
 
