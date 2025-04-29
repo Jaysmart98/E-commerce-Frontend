@@ -69,10 +69,8 @@ const Home = () => {
     <h3 id="home_text3">Shop the latest of all sort of items with us with ease. Fashion, Gadgets, Books, Furniture, Foods and etc. 
       </h3>
       </div>
-
-
+      
   <div className="card-group">
-
        <div className="card">
     <img src="https://res.cloudinary.com/dc4fx7sbe/image/upload/v1745790801/Gadgets_mfwk9o.png" className="card-img-top" alt="..."/>
     <div className="card-body">
@@ -133,9 +131,67 @@ const Home = () => {
     </div>
   </div>
 </div>
+      <div className="card-group">
+<div className="card">
+<img src="https://res.cloudinary.com/dc4fx7sbe/image/upload/v1745790801/Gadgets_mfwk9o.png" className="card-img-top" alt="..."/>
+<div className="card-body">
+<h5 className="card-title">GADGETS</h5>
+<p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 
-      <br/>  <br/>  <br/> <br />
+<div id="crossSpan">
+<div id="">
+<span className="card-text text-body-secondary">$1,500     </span> 
+<span id="crosstext2" className="card-text text-body-secondary">   $2,000</span>
+</div>
 
+<div id="crossbtn-container">
+<button id="crossbtn">Add to Cart</button>
+</div>
+</div>
+
+</div>
+</div>
+
+<div className="card">
+<img src="https://res.cloudinary.com/dc4fx7sbe/image/upload/v1745790350/food_korgga.png" className="card-img-top" alt="..."/>
+<div className="card-body">
+<h5 className="card-title">MEALS</h5>
+<p className="card-text">This card has supporting text below as a natural lead-in to additional content Lorem, ipsum dolor sit amet consectetur adipisicing el.</p>
+
+<div id="crossSpan">
+<div id="">
+<span className="card-text text-body-secondary">$50     </span> 
+<span id="crosstext2" className="card-text text-body-secondary">   $120</span>
+</div>
+
+<div id="crossbtn-container">
+<button id="crossbtn">Add to Cart</button>
+</div>
+</div>
+
+</div>
+</div>
+
+<div className="card">
+<img src="https://res.cloudinary.com/dc4fx7sbe/image/upload/v1745790841/furniture_knfeln.png" className="card-img-top" alt="..."/>
+<div className="card-body">
+<h5 className="card-title">FURNITURE</h5>
+<p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+
+<div id="crossSpan">
+<div id="">
+<span className="card-text text-body-secondary">$900     </span> 
+<span id="crosstext2" className="card-text text-body-secondary">   $1,200</span>
+</div>
+
+<div id="crossbtn-container">
+<button id="crossbtn">Add to Cart</button>
+</div>
+</div>
+
+</div>
+</div>
+</div>
       <hr/>
       <Footer/>
       <hr/>
