@@ -74,13 +74,13 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 20px;
     padding: 50px;
 }
 
-.card-group:hover{
+/* .card-group:hover{
     background-color: #FF7043;
-}
+} */
 
 #crossSpan{
     display: flex;
@@ -109,4 +109,17 @@
 }
 .card-group{
     background-color: rgb(220, 215, 200);
+}
+
+.card{
+    background-color: #FAF3E0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    flex-wrap: flex;
+}
+
+.card:hover{
+    color: navy;
 }

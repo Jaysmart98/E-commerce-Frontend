@@ -71,7 +71,7 @@ const Home = () => {
       </div>
       
   <div className="card-group">
-       <div className="card">
+    <div className="card">
     <img src="https://res.cloudinary.com/dc4fx7sbe/image/upload/v1745790801/Gadgets_mfwk9o.png" className="card-img-top" alt="..."/>
     <div className="card-body">
       <h5 className="card-title">GADGETS</h5>
@@ -191,6 +191,43 @@ const Home = () => {
 
 </div>
 </div>
+
+{/* <div id="page3">
+<div style="font-size:2em; margin-left: 70px; margin-top: 30px;">Meet the Instructors</div>
+                  <div id="object1">
+                   <img src="workpiece/ins_justin_cutroni_1x.jpg" alt="">
+                   <h2 id="text4" >JUSTIN CUTRONI</h2><hr>
+                  <p style="margin-left: 230px; width: 800px;color: rgb(37,37,37);">Justin's mission is to teach everyone how to use digital analytics
+                                for their business. With over ten years of industry experience, Justin now leads the Google 
+                                Analytics Education team. Justin is an active participant in the digital analytics community.
+                                He publishes the blog Analytics Talk and has authored or co-authored three books on Google Analytics.
+                                In 2014, he was named the Digital Analytics Industry's
+                                Most Influential Contributor by the Digital Analytics Association.</p>
+                   </div>
+
+                           <div id="object1">
+                               <img src="workpiece/ins_krista_seiden_1x.jpg" alt="">
+                               <h2 id="text4">KRISTA SEIDEN</h2><hr>
+                               <p style="margin-left: 230px; width: 800px; color: rgb(37,37,37);">Krista is a leader in digital analytics,
+                                advocating for best practices, and a frequent speaker at industry events. Krista co-chairs 
+                                the San Francisco chapter of the Digital Analytics Association (DAA) and mentors for the Analysis Exchange.
+                                She won the 2014 DAA Rising Star Award and the 2015 DAA Practitioner of the Year Award.</p>
+                           </div>
+
+                           <div id="object1">
+                               <img src="workpiece/ins_ashish_vij_1x.jpg" alt="">
+                               <h2 id="text4"> ASHISH VIJ</h2><hr>
+                               <p style="margin-left: 230px; width: 800px; color: rgb(37,37,37);">Ashish Vij is a Senior Specialist on Google
+                                Analytics 360 at Google. With over 12 years of experience, he works alongside Google’s
+                                advertising teams to design and implement measurement strategies for Google’s top tier
+                                clients. He was also responsible for developing key platform features along with 
+                                deploying commercialization efforts for Google Analytics. Ashish is a measurement evangelist, 
+                                and speaks to companies around the importance of implementing measurement as a focus for advertising.</p>
+                           </div>
+
+ </div> */}
+
+
 </div>
       <hr/>
       <Footer/>
