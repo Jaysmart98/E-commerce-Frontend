@@ -14,7 +14,7 @@
 #home_text1{
     text-align: center;
     font-family: sans-serif;
-    padding: 5% 15% 1% 15%;
+    padding: 3% 15% 1% 15%;
     font-size: 4em;
 }
 
@@ -78,9 +78,6 @@
     padding: 50px;
 }
 
-/* .card-group:hover{
-    background-color: #FF7043;
-} */
 
 #crossSpan{
     display: flex;
@@ -123,3 +120,38 @@
 .card:hover{
     color: navy;
 }
+
+.card-2{
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    flex-wrap: flex;
+}
+
+
+#crossbtn2{
+    background-color: #07119b;
+    color: #FFFFFF;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#crossbtn2:hover{
+    background-color: #575db4;
+}
+
+#cardIMG{
+    align-self: center;
+    width: 50%;
+    height: 70%;
+}
+
+/* 
+style="font-size:2em; margin-left: 70px; margin-top: 30px;
+src="workpiece/ins_justin_cutroni_1x.jpg"
+
+*/
