@@ -1,6 +1,17 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
+    const navigate = useNavigate();
+
+    const handleSignUp = () => {
+        navigate('/Signup');
+    }
+
+    const handleSignin = () => {
+        navigate('/Signin');
+    }
+
     return (
         <>
             <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
@@ -22,9 +33,9 @@ const Navbar = () => {
                     Register
                 </a>
                 <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="#">Sign up</a></li>
+                    <li><a className="dropdown-item" onClick={handleSignUp} href="#">Sign up</a></li>
                     <li><hr className="dropdown-divider"/></li>
-                    <li><a className="dropdown-item" href="#">Sign In</a></li>
+                    <li><a className="dropdown-item" onClick={handleSignin} href="#">Sign In</a></li>
                 </ul>
                 </li>
             </ul>
