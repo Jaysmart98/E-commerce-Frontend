@@ -25,14 +25,14 @@ const Signin = () => {
             console.log(obj);
             setSubmittedForm(...submittedForm, obj);
             console.log(submittedForm);
-            navigate('/Home.jsx')
+            navigate('/Dashboard')
         }
     };
 
     return (
         <>
         <div className="container-fluid col-lg-5 col-12 mt-lg-5 mt-3 shadow mx-auto p-lg-4 p-3 rounded-3">
-        <h1 className="text-center my-lg-4 my-3 text-secondary">SIGN UP</h1>
+        <h1 className="text-center my-lg-4 my-3 text-secondary">SIGN IN</h1>
 
         <input  type="name" placeholder="Username or email" onChange={(e) => setName(e.target.value)}  className="my-2 form-control shadow-none"/>
         <input  type="email" placeholder="Email" onChange={(e) => setMail(e.target.value)}  className="my-2 form-control shadow-none"/>
