@@ -76,7 +76,7 @@ const Signin = () => {
     const [isPasswordShow, setIsPasswordShow] = useState(false)
   const   navigate = useNavigate();   
 
-     const url = "e-commerce-backend-tau-five.vercel.app"
+     const url = "https://api.example.com/login"; // Replace with your API URL
 
     const formik = useFormik({
         initialValues: {
@@ -171,7 +171,7 @@ const Signin = () => {
                             <p>
                                 <a href="">Forget password?</a>
                                <small>Don't have an account?</small> <a href="">
-                                <Link to="/pages/signup">
+                                <Link to="/pages/Signup">
                                 Create an account.
                                 </Link>
                                 </a>
