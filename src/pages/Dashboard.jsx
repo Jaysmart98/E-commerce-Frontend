@@ -16,6 +16,13 @@ const Dashboard = () => {
             <p className="text-center">If you have any questions, don't hesitate to reach out.</p>
             <p className="text-center">Enjoy your experience!</p>
             </div>
+
+            <div>
+
+            </div>
+
+
+            <br /> <br /> <br />
          <Footer/>
          <hr/>
      </>
