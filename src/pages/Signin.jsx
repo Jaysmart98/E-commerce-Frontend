@@ -5,6 +5,9 @@ import * as yup from "yup";
 import { Link, useNavigate,  } from 'react-router-dom';
 import Swal from 'sweetalert2';
 import axios from 'axios';
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+
 
 const Signin = () => {
     const [message, setMessage] = useState(''); // State for messages
@@ -62,6 +65,7 @@ const Signin = () => {
 
     return (
         <>
+         <Navbar/>
             <div className="wrapper login-3 ">
                 <div className="container d-flex " style={{ marginTop: "160px" }}>
                      <div className="col-left">
@@ -117,6 +121,8 @@ const Signin = () => {
                 </div>
                 </div>
             </div>
+            <hr />
+            <Footer/>
         </>
     );
 }
