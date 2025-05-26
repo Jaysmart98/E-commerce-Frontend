@@ -5,6 +5,8 @@ import * as yup from "yup";
 import { Link, useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
 import axios from 'axios';
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 
 const Signup = () => {
@@ -67,12 +69,14 @@ const Signup = () => {
   
   return (
     <>
+    <Navbar/>
       <div className="wrapper login-3">
         <div className="container d-flex" style={{ marginTop: "160px" }}>
           <div className="col-left">
             <div className="login-text">
               <p>
-                Experience a range of beautifully designed rooms and suites that cater to all your needs. Each room is equipped with:
+              We are an e-commerce platform dedicated to providing the best online shopping experience. 
+                            Explore our wide range of products and enjoy seamless service.
               </p>
               <button className='btn'>Read More</button>
             </div>
@@ -118,6 +122,14 @@ const Signup = () => {
           </div>
         </div>
       </div>
+
+      {/* <div className="footer">
+        <p className="mb-0">E-Commerce</p>
+        <p className="mb-0">© 2023 Easy Shopping Site. All rights reserved.</p>
+        <p className="mb-0">Made by E-Commerce team with ❤️ - JAYSMART </p>
+      </div> */}
+      <hr />
+      <Footer/>
     </>
   );
 }

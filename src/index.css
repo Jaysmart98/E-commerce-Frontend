@@ -387,6 +387,7 @@ overflow-x: hidden !important;
 
 .container.login-3 {
     box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+    height: 100%;
 }
 
 .login-3 .col-left,
@@ -394,11 +395,14 @@ overflow-x: hidden !important;
     width: 55%;
     padding: 45px 35px;
     display: flex;
+    border-right: 4px solid black;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
 }
 
 .login-3 .col-left {
     width: 45%;
-    background: #445297;
+    background: #071661;
     -webkit-clip-path: polygon(98% 17%, 100% 34%, 98% 51%, 100% 68%, 98% 84%, 100% 100%, 0 100%, 0 0, 100% 0);
     clip-path: polygon(98% 17%, 100% 34%, 98% 51%, 100% 68%, 98% 84%, 100% 100%, 0 100%, 0 0, 100% 0);
 }
@@ -540,7 +544,7 @@ body{
 
 .login-3 .login-form button {
     color: #ffffff;
-    background: #445297;
+    background: #07155a;
     border-color: white;
     font-weight: bolder;
     outline: none;
@@ -552,6 +556,7 @@ body{
     background: #ffffff;
     border: 1px solid #445297;
 }
+
 main {
     padding-left: 240px;
   }
